@@ -1,5 +1,5 @@
 module.exports = {
-    aliases: ['alive'], 
+    aliases: ['evaluate'], 
     callback: async ({ message, args }) => {
       if(message.author.id === '395205580668534785') {
         const { member, channel, content } = message
